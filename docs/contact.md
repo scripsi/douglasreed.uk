@@ -2,7 +2,7 @@
 
 Do get in touch.
 
-<form id="contact-form" action="https://djreed.uk/contact.php" method="post">
+<form id="contact-form" action="https://douglasreed.uk/contact.php" method="post">
   <div>
     <label for="name">Your Name</label>
     <input type="text" id="name" name="visitor_name" placeholder="Firstname Lastname" pattern=[A-Z\sa-z]{3,30} required>
