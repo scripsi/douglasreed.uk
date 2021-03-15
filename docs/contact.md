@@ -1,6 +1,10 @@
 # Contact Me
 
-Do get in touch.
+__Testing Only!__
+
+_Please don't use this form_
+
+To contact me directly, please look at [https://djreed.com](https://djreed.com)
 
 <form id="contact-form" action="https://douglasreed.uk/contact.php" method="post">
   <div>
