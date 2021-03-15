@@ -21,7 +21,10 @@ jobs:
       - name: build the website files
         run: mkdocs build
 
-      - name: deploy the website to scripsi.uk
+      - name: copy htaccess
+        run: cp docs/.htaccess site/.htaccess
+
+      - name: deploy the website to hosting
         uses: wangyucode/sftp-upload-action@v1.1
         with:
           host: ${{ secrets.HOST }}
